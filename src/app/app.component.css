@@ -1,12 +1,11 @@
+/* 
 
 
-/* Please ❤ this if you like it! */
 
 
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext');
 
-/* #Primary
-================================================== */
+
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -32,8 +31,7 @@ body{
 }
 
 
-/* #Navigation
-================================================== */
+
 
 .start-header {
 	opacity: 1;
@@ -154,8 +152,7 @@ body{
     transition: all 200ms linear;
 }
 
-/* #Primary style
-================================================== */
+
 
 .bg-light {
 	background-color: #fff !important;
@@ -454,8 +451,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 
 
-/* #Media
-================================================== */
+
 
 @media (max-width: 767px) { 
 	h1{
@@ -515,8 +511,7 @@ body.dark .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 	}
 }
 
-/* #Link to page
-================================================== */
+
 
 .logo {
 	position: absolute;
@@ -541,4 +536,26 @@ li{
 }
 .abc{
 	margin-left: 30%;
+} */
+nav{
+	padding: 1% 33%;
+}
+
+img{
+	height: 60px;
+	width: 60px;
+}
+.nav-link{
+	color: #212121 !important;
+	font-weight: 500;
+    
+}
+.nav-item:hover .nav-link{
+	color: #8167a9 !important;
+}
+.nav-item.active .nav-link{
+	color: #777 !important;
+}
+.zoom:hover {
+	transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
