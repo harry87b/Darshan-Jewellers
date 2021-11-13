@@ -1,5 +1,14 @@
 {
   "projects": {
-    "default": "darshan-jewellers-da858"
+    "default": "darshan-jewellers-a076c"
+  },
+  "targets": {
+    "darshan-jewellers-a076c": {
+      "hosting": {
+        "Darshan-Jewellers": [
+          "darshan-jewellers-a076c"
+        ]
+      }
+    }
   }
 }
